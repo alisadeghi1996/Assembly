@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA8252E8-0136-4A5D-A367-20FA344DF9E4}"
+	ProjectSection(SolutionItems) = preProject
+		src\Shop.Contracts\obj\Debug\net8.0\.NETCoreApp,Version = v8.0.AssemblyAttributes.cs = src\Shop.Contracts\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+		src\Shop.Contracts\obj\Debug\net8.0\Shop.Contracts.GlobalUsings.g.cs = src\Shop.Contracts\obj\Debug\net8.0\Shop.Contracts.GlobalUsings.g.cs
+		src\Shop.Contracts\obj\Debug\net8.0\.NETCoreApp,Version = v8.0.AssemblyAttributes.cs = src\Shop.Contracts\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Contracts", "src\Shop.Contracts\Shop.Contracts.csproj", "{6A671875-1E76-4917-BBC6-7E0A5B291206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core", "src\Shop.Core\Shop.Core.csproj", "{EAE006CC-85E2-4894-8BAF-3A08421E1E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.PluginHost", "src\Shop.PluginHost\Shop.PluginHost.csproj", "{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{62E66B34-B764-4531-A467-557F30099E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Plugins.Discount", "plugins\Shop.Plugins.Discount\Shop.Plugins.Discount.csproj", "{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C8FDBE5-D20E-4DFF-906C-1AA36BDD887C}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Shop.Tests\obj\Debug\net8.0\.NETCoreApp,Version = v8.0.AssemblyAttributes.cs = tests\Shop.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+		tests\Shop.Tests\RepoPaths.cs = tests\Shop.Tests\RepoPaths.cs
+		tests\Shop.Tests\.DS_Store = tests\Shop.Tests\.DS_Store
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Tests", "tests\Shop.Tests\Shop.Tests.csproj", "{A4B1FD73-D59F-47F1-AFEB-0FD37133392C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A671875-1E76-4917-BBC6-7E0A5B291206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A671875-1E76-4917-BBC6-7E0A5B291206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A671875-1E76-4917-BBC6-7E0A5B291206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A671875-1E76-4917-BBC6-7E0A5B291206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE006CC-85E2-4894-8BAF-3A08421E1E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE006CC-85E2-4894-8BAF-3A08421E1E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE006CC-85E2-4894-8BAF-3A08421E1E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE006CC-85E2-4894-8BAF-3A08421E1E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B1FD73-D59F-47F1-AFEB-0FD37133392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B1FD73-D59F-47F1-AFEB-0FD37133392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B1FD73-D59F-47F1-AFEB-0FD37133392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B1FD73-D59F-47F1-AFEB-0FD37133392C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A671875-1E76-4917-BBC6-7E0A5B291206} = {AA8252E8-0136-4A5D-A367-20FA344DF9E4}
+		{EAE006CC-85E2-4894-8BAF-3A08421E1E7F} = {AA8252E8-0136-4A5D-A367-20FA344DF9E4}
+		{F2D201EF-7A1F-42BA-9DA8-1B6D3EF043EB} = {AA8252E8-0136-4A5D-A367-20FA344DF9E4}
+		{D6BE4C33-3083-4E4D-81B1-1CCC10FBAB63} = {62E66B34-B764-4531-A467-557F30099E4D}
+		{A4B1FD73-D59F-47F1-AFEB-0FD37133392C} = {8C8FDBE5-D20E-4DFF-906C-1AA36BDD887C}
+	EndGlobalSection
+EndGlobal
